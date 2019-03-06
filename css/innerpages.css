@@ -1,0 +1,153 @@
+/* .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+ */
+ .col-sm-12{
+	padding-right: 0px;
+    padding-left: 0px;
+ }
+.innerpages aside{
+
+	color:#fff;	
+	padding:0 !important;
+	/* width:20% !important; */
+} 
+.innerpages aside ul li ,.innerpages aside h2{
+		background:#08344f;
+}
+.innerpages aside ul li.active a {
+	background:#cc0033 url("../images/active-menu-icon.png") 94aka% center no-repeat;
+}
+.innerpages aside ul li.active a.high-contrast{
+	background:#cc0033 url("../images/1a.png") 85% center no-repeat;
+}
+.innerpages aside ul li.active a:hover,.innerpages aside ul li.active a:focus{
+	color:#fff !Important;
+}
+.innerpages main{
+	/* width:80% !important; */
+}
+/* .paddingZero{
+	padding:0;
+}
+.leftNav{
+	
+} */
+
+figcaption{
+	text-align:center;
+}
+aside ul li a{	
+	padding:15px 40px;
+	display:block;
+}
+aside a{
+	color:#fff;
+}
+
+
+.innerpages aside h2{
+	border-bottom: 2px solid #fff;
+    margin: 0;
+	color:#fff;
+    padding: 20px 40px;
+	font-size: 1.5em;
+	font-family: Segoe UI Bold;
+}
+.breadcrumbContainer {
+	background: #eee;
+	margin:0;
+	padding:20px 0;
+}
+.breadcrumb{
+	display:inline;
+	background:#eee;
+	color: #000;
+}
+.breadcrumb>.active {
+    
+	color: rgb(51, 51, 51);
+}
+.imagesContainer{
+	margin:20px 0;
+}
+.breadcrumb>li+li:before{
+	content:">";
+	color:#000;
+}
+
+.innerpages main section{
+	background: #F9F9F9;
+    padding: 20px;
+	margin:20px 0;
+    border: 1px solid #eee;
+	
+}
+.innerpages main section p,.innerpages main section span,.innerpages main section li{
+	font-size: 1em;
+    color: #333333;
+	line-height:1.5;
+}
+pre{
+	background:#fff;
+}
+.innerpages main  h1{
+    margin-left:0;
+    color: #08344f;
+    margin: 0;
+	padding-top:20px;
+	padding-bottom:10px;
+    font-size: 1.875em;
+}
+.innerpages main section h2{
+	font: 1.675em Segoe UI Regular;
+	color: #08344f;
+	margin: 10px 0 25px;	
+}
+.contactus form legend{
+	font-size: 1.125em;
+    color: #333333;
+	border:none;
+	margin:0;
+}
+
+.thingstothink ul li,.quotes ul li,.listStyle li{ 
+	list-style-type:circle;
+	margin:14px 20px;
+}
+.contactus form  .row{
+	margin:0 0 10px;
+	width:100%;
+}
+.successMessage{
+	font-size: 1.4em;
+	color:green;
+}
+form#ContactForm .errorTxt  span{
+	display:inline-block;
+	color:#B50715;
+	padding:2px 5px;
+}
+.sitemap main .menu li{
+	list-style-type:square;
+}
+main.sitemap  .menu li .sub_menu li{
+	list-style-type: circle;
+}
+main a{
+	padding:4px;
+}
+#videoTranscriptBtn,#audioTranscriptBtn{
+	margin:10px 0;
+}
+.audioSection .player-container .logo,.videoSection .player-container .logo{
+	display:none;
+}
+.audioSection button:hover,.audioSection button:focus,.audioSection a:hover,.audioSection a:focus,.videoSection button:hover,.videoSection button:focus,.videoSection a:hover,.videoSection a:focus{
+	outline:2px dotted #000;
+	outline-offset:2px;
+}  
+.player-container .control-bar{
+	padding:6px;	
+}

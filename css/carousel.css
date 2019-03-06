@@ -1,0 +1,180 @@
+/* GLOBAL STYLES
+
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	
+	color: #fff;
+    background: #000;
+	border: none;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+	
+	
+	color: #fff;
+    background: #000;
+	border: none;
+}
+.pagination>li>a, .pagination>li>span{
+	 color: #000;
+    background: #fff;
+	border:none;
+	
+}
+#myCarousel .carousel-indicators  a{
+	color: #fff;
+    background: #cc0033;
+	border-radius:25px;
+}
+.carousel-indicators a:focus,	.carousel-indicators a:hover,	.carousel-indicators a:active { 
+	background-color: #fff;
+	color:#000;
+}
+#myCarousel #carouselButtons {
+	margin-right:8px;
+	z-index: 16;
+}
+.carousel-control:active,.carousel-control:focus{
+	background-color:#5A7994;
+}
+.carousel-control:active .glyphicon-chevron-left,.carousel-control:focus .glyphicon-chevron-left,.carousel-control:active .glyphicon-chevron-right,.carousel-control:focus .glyphicon-chevron-right{
+	font-size:40px;
+}
+.carousel-caption {
+	background-color: #08344f;				
+	opacity: 0.9;
+	left:0;
+	right:0;
+	bottom:0;
+	padding:0.7em 40px;
+	margin:0;
+	text-align:left;
+	font-size:1em ;
+}
+.carouselPanel .carousel-indicators{
+	left:0;
+	bottom:0;
+	margin:0;
+	position:relative;
+	width:auto;				
+}
+.carouselPanel{
+	overflow:auto;
+	width: 170px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+	margin-top: 18px;
+	padding:5px;
+}
+.glyphicon-play,.glyphicon-pause{
+	font-size: 15px;
+	color: #fff;
+	border: none;
+	text-decoration: none;
+	background-color:#cc0033;
+	border-radius:30px;
+	font-size: 15px;
+	padding: 9px;
+	top:0px;
+}
+.carousel-control {
+	top: 183px;
+	width: 50px;
+    height: 50px;
+    border-radius: 40px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+	filter: alpha(opacity=50);
+	opacity: 1;
+}
+.carousel-control:active .glyphicon-chevron-left, .carousel-control:focus .glyphicon-chevron-left, .carousel-control:active .glyphicon-chevron-right, .carousel-control:focus .glyphicon-chevron-right{
+	font-size:20px;
+}
+.carousel-indicators {
+	bottom: 6px;
+}
+.carousel-inner{
+	padding:0;
+}
+.carousel-indicators li{
+	display: inline-block;				
+	margin: 1px;
+	cursor: pointer;
+	border: none;
+	color:#fff;
+	margin:0;
+	padding:0;
+	text-indent: 0;
+	border-radius:0;
+	width:35px;
+	height:35px;
+	font-size: 15px;
+}
+.carousel-indicators .active {
+	width: 35px;
+	height: 35px;
+	margin: 0;
+	background-color:inherit;
+	color:#fff;
+}		
+.carouselButtons button:focus,.carouselButtons button:hover{
+	border:2px solid black;
+}
+.btn-primary{
+	background:#0E4E90 ;
+}
+.carousel-control.left,.carousel-control.right{
+	background-image:none !important;
+	background-color:#cc0033;
+}
+.carousel-control.left{
+	margin-left:40px;
+}
+.carousel-control.right{
+	margin-right:40px;
+}
+.carousel-control:active, .carousel-control:focus, .carousel-control:hover{				
+	width: 6% !important;
+	background-color: #cc0033;
+	color: #fff !important;	
+	outline:2px dotted #000;
+	opacity:1;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+	color: #fff;
+	background-color: #092C4A;
+	border-color: #122b40;	
+}
+
+.carousel-indicators  .current_slide{
+	display:none;	
+}
+.carousel-indicators .active .current_slide{
+	display:block;	
+}
+.carousel-indicators .active a{
+	background:#08344f !important;
+	font-family: Segoe UI Bold;
+	font-size:1em;
+}

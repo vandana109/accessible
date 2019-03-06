@@ -1,0 +1,93 @@
+.errorTxt.high-contrast span{
+	color:#fff !important;
+	font-family: Segoe UI Regular;
+	font-size: 0.9em;
+	font-weight:normal;
+}
+.high-contrast footer{
+		border-top:1px solid #fff;
+	}
+	.high-contrast{
+		background-color:#000 !important;
+		color:#fff !important;;
+	}
+	 .high-contrast button:hover,.high-contrast button:active,.high-contrast button:focus, .high-contrast a:hover,.high-contrast a:focus,.high-contrast a:active, .high-contrast input:focus,.high-contrast input:hover,.high-contrast input:active{
+		background-color:#fff !important;
+		color:#000 !important;		
+	}
+	.nav li.active a.high-contrast span.caret.high-contrast {
+		background: url("../images/nave_arrow_b.png") no-repeat;
+		background-color: #fff !important;
+	}
+.nav li.active a.high-contrast.dropdown-toggle  {
+		color:#000 !important;
+		background-color: #fff !important;
+		background:#fff  url("../images/11a.png") 12px center no-repeat !important;
+	}
+	.carouselPanel a.high-contrast:focus,.carouselPanel a.high-contrast:active,.carouselPanel a.high-contrast:hover,#carouselButtons button.high-contrast:focus,#carouselButtons button.high-contrast:active,#carouselButtons button.high-contrast:hover{
+	color: #000 !important;
+	background-color: #fff !important;
+	    outline-offset: 3px;
+    outline-color: #fff;
+}
+.high-contrast a.nextSection:hover,.high-contrast a.nextSection:focus{
+	background: #fff url("../images/arrow_b.png") center no-repeat !important;
+} 
+.adventureSportsIcon, .high-contrast a.adventureSportsIcon:hover,.high-contrast a.adventureSportsIcon:focus{
+	background:url("../images/11a.png") 12px center no-repeat;
+}
+.travelIcon, .high-contrast a.travelIcon:hover,.high-contrast a.travelIcon:focus{
+	background:url("../images/22a.png") 10px center no-repeat;
+}
+.favoriteIcon, .high-contrast a.favoriteIcon:hover,.high-contrast a.favoriteIcon:focus{
+	background:url("../images/33a.png") 15px center no-repeat;
+}
+.blogIcon,.high-contrast a.blogIcon:hover,.high-contrast a.blogIcon:focus{
+	background:url("../images/44a.png") 15px center no-repeat;
+}
+.aboutMeIcon,.high-contrast a.aboutMeIcon:hover,.high-contrast a.aboutMeIcon:focus{
+	background:url("../images/55a.png") 15px center no-repeat;
+}
+.high-contrast a.adventureSportsIcon{
+	background:url("../images/1.png") 12px center no-repeat;
+}
+.high-contrast a.travelIcon{
+	background:url("../images/2.png") 12px center no-repeat;
+}
+.high-contrast a.favoriteIcon{
+	background:url("../images/3.png") 12px center no-repeat;
+}
+.high-contrast a.blogIcon{
+	background:url("../images/4.png") 12px center no-repeat;
+}
+.high-contrast a.aboutMeIcon{
+	background:url("../images/5.png") 12px center no-repeat;
+}
+span.caret.high-contrast{
+	    background: url("../images/nave_arrow_w.png") no-repeat;
+}
+a:hover span.caret.high-contrast,a:focus span.caret.high-contrast{
+	 background:#fff url("../images/nave_arrow_b.png") no-repeat;
+	 background-color:#fff !important;
+}
+.high-contrast.breadcrumb>li+li:before{
+	color:#fff;
+}
+.navbar-nav>li ul li.active a.high-contrast{
+	background-color:#fff !important;
+	color:#000 !important;
+}
+.dropdown-menu>.active>a.high-contrast, .dropdown-menu>.active>a.high-contrast:hover, .dropdown-menu>.active>a.high-contrast:focus{
+	background:#cc0033 url("../images/1a.png") 85% center no-repeat;
+}
+.high-contrast.findMoreText:after {
+		border-left-color: #fff;
+	}
+	.innerpages aside ul li.active.high-contrast a.high-contrast{
+	background-color:#fff !important;
+	color:#000 !important;
+}
+.carousel-indicators .active a.high-contrast {
+    background: #fff !important;
+	color:#000 !important;
+}
