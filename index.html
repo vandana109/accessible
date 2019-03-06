@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Home : Geno's Place</title> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<meta charset="utf-8">			
+		<link rel="stylesheet" type="text/css" href="css/browserReset.css"> 
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
+		<link rel="stylesheet" type="text/css" href="css/carousel.css"> 
+		<link rel="stylesheet" type="text/css" href="css/common.css"> 
+		<link rel="stylesheet" type="text/css" href="css/responsive.css"> 
+		<link rel="stylesheet" type="text/css" href="css/highContrast.css"> 
+	</head>
+	<body>
+		<div class="wrapper homePage">
+			<header role="banner">
+				<div class="upper_header row innerWrapper ">
+					<div class="col-sm-3 col-xs-6">
+						<div id="skiptocontent">
+							<a href="#mainContent">Skip to main content</a>							
+						</div>						
+					</div>
+					<div class="col-xs-6 col-sm-9">
+						<div class="row  pull-right">
+							<div class="small-view-btn-panel visible-xs   col-md-6 col-xs-12">
+								<button class="btn navbar-toggle" aria-expanded="false" id="accessible-panel-toggle-btn" data-toggle="collapse" data-target="#forAccessible">
+									<span class="sr-only">Accessibility</span>						
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span> 
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+							<div class="forAccessible collapse navbar-collapse col-md-6 col-xs-12" id="forAccessible">
+								<ul class="nav navbar-nav">
+									<li class="separator">
+									  <input type="checkbox" id="highContrastEnable" name="highContrastEnable">
+									  <label for="highContrastEnable">High Contrast</label>
+									</li>
+									<li class="">
+										<span>Text Resize</span>
+										<button type="button" class="resizeBtn small-font" id="decreaseTextSize">A&#8722;
+											<span class="sr-only">&nbsp;Decrease Text Size</span>
+										</button>
+										<button type="button" class="resizeBtn normal-font" id="normalTextSize">A
+											<span class="sr-only">&nbsp;Default Text Size</span>
+										</button>
+										<button type="button" class="resizeBtn big-font" id="increaseTextSize">A+
+											<span class="sr-only">&nbsp;Increase Text Size</span>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>				
+				</div>
+				<div class="lower_header  innerWrapper ">						
+					<div class="logo pull-left col-xs-4 col-sm-3">
+							<a href="./index.html"  class="imgLink"><img src="images/logo.png" alt="Geno's Place : Home" class=" img-responsive"></a>
+						</div>
+					<div class="searchPanel col-xs-8 col-sm-9">
+						<form role="search" id="webSearch" class="pull-right" action="./Search.html" method="get">						
+							<label for="searchField" class="searchLabel">Website Search</label>						
+							<input type="text" id="searchField" class="" name="searchField">
+							<button id="searchSubmit" value="Search" class="btn">Search</button>
+						</form>	
+					</div>					
+				</div>
+				<nav class="navbar navbar-default innerWrapper" role="navigation" aria-label="Primary"> 
+					<div class="navbar-header"> 
+						<button id="navMenu" class="navbar-toggle" data-toggle="collapse" aria-expanded="false" data-target="#nav-navbar-collapse"> 
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span> 
+							<span class="icon-bar"></span>
+						</button> 
+					</div>
+					<div class="collapse navbar-collapse" id="nav-navbar-collapse"> 					
+						<ul class="nav navbar-nav pull-right" class="mainmenu"> 
+							<li class="menuitem">
+								<a class="dropdown-toggle adventureSportsIcon menuitemLink" data-toggle="dropdown" href="#" aria-expanded="false">  Adventure Sports
+									<span class="caret"></span> 
+								</a> 
+								<ul class="dropdown-menu">				
+									<li><a href="./SnowSkiing.html">Snow Skiing</a></li>			
+									<li><a href="./SailPlaning.html">Sailplaning</a></li>			
+								</ul>
+							</li>
+							<li class="menuitem">
+								<a class="dropdown-toggle travelIcon menuitemLink" data-toggle="dropdown" href="#" aria-expanded="false">  Travel
+									<span class="caret"></span> 
+								</a> 
+								<ul class="dropdown-menu"> 
+									<li><a href="./SouthAfrica.html">South Africa</a></li>								
+									<li><a href="./London.html">London</a></li>	
+									<li><a href="./Nepal.html">Nepal</a></li>				
+								</ul>
+							</li>
+							<li class="menuitem">
+								<a class="dropdown-toggle favoriteIcon menuitemLink" data-toggle="dropdown" href="#" aria-expanded="false">  Favorite
+									<span class="caret"></span> 
+								</a> 
+								<ul class="dropdown-menu"> 
+									<li><a href="./WordsOfWisdom.html">Words of Wisdom</a></li>
+									<li><a href="./Quotes.html">Quotes</a></li>
+									<li><a href="./Movies.html">Movies</a></li>
+								</ul>
+							</li> 
+							<li class="menuitem">
+								<a class="dropdown-toggle aboutMeIcon menuitemLink" data-toggle="dropdown" href="#" aria-expanded="false">  About Me
+									<span class="caret"></span> 
+								</a> 
+								<ul class="dropdown-menu"> 
+									<li><a href="./MoreAboutMe.html">More About Me</a></li>
+									<li><a href="./GroupsAffiliatedWith.html">Groups Affiliated With</a></li>
+									<li><a href="./IdealWheelchair.html">My Wheel Chair</a></li>
+									<li><a href="./Store.html">Store</a></li>
+								</ul> 
+							</li>
+							<li class="dropdown menuitem menuitemLink"> 
+								<a href="./Blog.html" class="blogIcon">Blog</a> 								
+							</li>							
+						</ul>						
+					</div> 
+				</nav>
+			</header>
+			<main id="mainContent" role="main">
+				<div class="homepageSection" id="HomeMain">						
+					<section class="alignCenter">
+					<h1 class="innerWrapper alignLeft">Welcome to Geno's Place</h1>
+					<div id="myCarousel" class="carousel slide">		
+						<ul class="carousel-inner" role="presentation">							
+							<li class="item active">
+								<img src="images/slide-02.jpg" alt="">
+								<div class="container">
+									<div class="carousel-caption">
+										<p>Costa Rica is a country in Central America. There are several ways to explore the jungles in Costa Rica. One way is to walk through it, another way is through aerial tram called <span lang='es'>"Teleferico del Bosque Lluvioso"</span>. 
+										My favorite way to explore the jungle is by boat. Costa Rica has a lot of wildlife.</p>
+									</div>
+								</div>
+							</li>
+							<li class="item">
+								<img src="images/slide-03.jpg" alt="">
+								<div class="container">
+									<div class="carousel-caption">
+										<p>Bangkok is the capital and the most populous city of Thailand. We spent some time at Wat Sai floating market along Sanam Chai Canal was a popular tourist site for visitors to admire the traditional canal side way of life. 
+										We rode in one of these boats, called longtails, through the city's extensive network of canals.</p>
+									</div>
+								</div>
+							</li>
+							<li class="item">
+								<img src="images/slide-04.jpg" alt="">  
+								<div class="container">
+									<div class="carousel-caption">
+										<p>Machu Picchu is a 15th-century Inca site located 2,430 metres above sea level. It is located in the Cusco Region in Peru.
+										 It can be reached by a three hour rail journey from Cuzco, into the Urubamba Valley. The views from Machu Picchu are extraordinary.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" aria-label="Previous slide">
+							<span class="glyphicon glyphicon-chevron-left"></span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" aria-label="Next slide">
+							<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+						<div class="carouselPanel ">
+							<div id="carouselButtons" class="pull-left">
+								<a id="play" class="glyphicon glyphicon-play"  href="#" aria-label="play"></a>
+								<a id="pause" class="glyphicon glyphicon-pause" href="#" aria-label="pause"></a>
+							</div>
+							<ul class="carousel-indicators pagination pull-left" >
+								<li data-target="#myCarousel" data-slide-to="0" class="active">
+									<a href="#">
+										<span class="sr-only current_slide">Current Slide</span>
+										<span class="sr-only">Slide</span>1
+									</a>					
+								</li>
+								<li data-target="#myCarousel" data-slide-to="1">
+									<a href="#">
+										<span class="sr-only current_slide">Current Slide</span>
+										<span class="sr-only">Slide</span>2
+									</a>
+								</li>
+								<li data-target="#myCarousel" data-slide-to="2">
+									<a href="#">
+										<span class="sr-only current_slide">Current Slide</span>
+										<span class="sr-only">Slide</span>3
+									</a>
+								</li>							
+							</ul>				
+						</div>
+					</div>
+					<div class="img-separator">
+						<a aria-hidden="true" tabindex="-1" href="#GenosDetails" class="nextSection"></a> 
+					</div>
+					
+					</section>
+					<section id="GenosDetails" class="alignCenter">
+						
+						<h2>About Me</h2>
+						<div class="container innerWrapper">
+							<ul> 
+								<li>I am Gene Rodgers</li>
+								<li>I have traveled in 44 countries and island nations,  on six continents, and sailed on several oceans.	</li>
+								<li>I have enjoyed diverse recreational activities ranging from skydiving and paragliding to scuba diving to trekking in the Himalayas - including an expedition to Mount Everest Base Camp.</li>
+								<li>I was, at one time, an entrepreneur and self-made millionaire.</li>
+								<li>I earned a bachelors degree in Education, an MBA, and graduate and post-graduate studies in rehabilitation.</li>
+								<li>I have worked in the field of disabilities, in Texas, New Mexico, and California.</li>
+								<li>I earned a Switzer Research Fellowship from the Federal Department of Education.</li>
+								<li>I became, and am now, a TV producer.</li>								
+							</ul>
+						</div>
+						<div class="findMore ">
+							<div class="findMoreInner">
+								<div class="findMoreText">Find Out More
+									
+								</div>
+								<ul>
+									<li><a href="./MoreAboutMe.html">More About Me</a></li>
+									<li><a href="./IdealWheelchair.html">My Wheel Chair</a></li>
+									<li><a href="./Store.html">Store</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="img-separator">
+							<a aria-hidden="true" tabindex="-1" href="#GenosAdventure" class="nextSection"></a>
+						</div>						
+					</section>
+					<section id="GenosAdventure" class="alignCenter">						
+						<h2>Adventure Sports</h2>
+						<div class="container innerWrapper">
+							<p>I have enjoyed many adventure sports on land, sea and in the air.  My favorite adventure sports are sailing and paragliding as they offer great freedom for those who understand the winds and ways of Mother Nature.  Scuba diving required the most training.  Trekking to Mount Everest Base Camp required the most endurance.</p>
+							<div class="thumbnailGroup imagesContainer">
+								<ul class="row">
+									<li class="col-sm-6">
+										<div class="thumbnail">
+											<img src="images/skiing/sitskifront.jpg" alt="Geno skiing on Sit-Ski" class="img-responsive"> 
+										</div>
+										<div class="caption">
+											<a href="./SnowSkiing.html">Snow Skiing</a>
+										</div>
+									</li>
+									<li class="col-sm-6">
+										<div class="thumbnail">
+											<img src="images/sailplaning/cockpit.jpg" alt="Geno and pilot in cockpit" class="img-responsive"> 
+										</div>
+										<div class="caption">
+											<a href="./SailPlaning.html">Sailplaning</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="img-separator">
+							<a aria-hidden="true" tabindex="-1" href="#genosTravel" class="nextSection"></a>
+						</div>
+					</section>
+					<section id="genosTravel" class="alignCenter">
+						<h2>Geno Travels the World</h2>
+						<div class="container innerWrapper">
+							<p>I have traveled in 44 countries on six continents using planes, trains, automobiles, elephant and Sherpa.  I have sailed on several oceans on tall-ships, an experimental air-foil ship, and even a Chines Junk.  As a result of my travels, I have created the <a href="#">Ideal Travel Chair</a> that works well under all conditions. Take a look and tell me what you think.</p>
+							<p>Though I have traveled in every country in North America and Central America, I have almost no pictures from those travels.  Back then, rather than spend money on a camera and film, every dollar went for gasoline.</p>
+							<div class="thumbnailGroup imagesContainer">
+								<ul class="row">
+									<li class="col-sm-4">
+										<div class="thumbnail">
+											<img src="images/southafrica/launch.jpg" alt="Geno ready to Jump from launch pad" class="img-responsive"> 
+										</div>
+										<div class="caption">
+											<a href="./SouthAfrica.html">South Africa</a>
+										</div>
+									</li>
+									<li class="col-sm-4">	
+										<div class="thumbnail">
+											<img src="images/london/GenoInEye.jpg" alt="Geno inside The Eye" class="img-responsive"> 
+										</div>
+										<div class="caption">										
+											<a href="./London.html">London</a>
+										</div>
+									</li>
+									<li class="col-sm-4">
+										<div class="thumbnail">
+											<img src="images/nepal/doko.jpg" alt="Sherpa carrying Geno in Doko" class="img-responsive"> 
+										</div>
+										<div class="caption">
+											<a href="./Nepal.html">Nepal</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="img-separator-footer"></div>
+					</section>					
+				</div>				
+			</main>			
+			<footer role="contentinfo">
+				<div class="row innerWrapper">
+					<div class="col-sm-4 footerLinks">
+						<ul class="row">
+							<li class="separator"><a href="./Sitemap.html">Site Map</a></li>
+							<li><a href="./ContactUs.html">Contact Us</a></li>					
+						</ul>
+						<div class="copyright row">Copyright Geno's place 2015 All Rights Reserved</div>
+					</div>				
+					<div class="col-sm-4 knowbilityLink">
+						<a class="imgLink"  target="_blank" href="http://knowbility.org/" id="Knowablility_logo">
+							<img src="images/Knowablility_logo.png" alt="knowbility - External website opens in new tab" >
+						</a>
+					</div>
+					<div class="col-sm-4 connectmeLink">
+						<p>
+							<span class="">Connect with Me </span>
+							<a target="_blank" class="imgLink" href="https://www.facebook.com/gene.rodgers.982/media_set?set=a.458512499119.273842.757309119&amp;type=3" >
+								<img src="images/facebook.png" alt="Geno's Facebook page - opens in new tab" class="img-res">
+							</a> 
+						</p>
+						<p class="row lastUpdated">Last Updated: November 5, 2015</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+		
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"> </script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>		
+		<script type="text/javascript" src="js/carousel.js"></script>
+		<script type="text/javascript" src="js/validation.js"></script>
+		<script type="text/javascript" src="js/webSearch.js"></script> 
+		<script type="text/javascript" src="js/common.js"></script>
+	</body>
+</html>
